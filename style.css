@@ -1,0 +1,11 @@
+body{
+
+    color:red ;
+  
+   background-image: url(ayush.jpg);
+   background-position: fit;
+    margin: 30px;
+    padding: 40px;
+    border-color: azure;
+    border: 36px;
+}

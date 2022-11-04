@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>STUDENT REGISTRATION FORM</h1><hr>
+   
+   <form>
+
+   <table>
+    
+    
+       <tr>
+        <td>FIRST NAME</td>
+        <td>
+       <input type="text" maxlength="30" />(only 30 alphabates)
+        </td>
+       </tr>
+       </tr>
+       <td>LAST NAME</td>
+       <td>
+        <input type="text" maxlength="30""/>(only 30 alphabates)
+       </td>
+       </tr>
+       <tr>
+        <td>DATE OF BIRTH</td>
+        <td>
+          <select name="BIRTHDAY_DAY">
+            <option value="-1">DAY</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+        
+              <select name="BIRTHDAY_MONTH">
+                <option value="-1">MONTH</option>
+                <option value="january">january</option>
+                <option value="febuary">febuary</option>
+                <option value="march">march</option>
+                <option value="april">april</option>
+                <option value="june">june</option>
+                <option value="july">july</option>
+                <option value="augest">august</option>
+
+              </select>
+      
+              <select name="year ">
+                <option value="-1">year</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+              </select>
+            
+          
+          </select>
+        </td>
+       </tr>
+       <tr>
+        <td>EMAIL ID</td>
+        <td><input type="text" name="email_id" />(once used emai)</td>
+       </tr>
+     <tr>
+      <td>MOBILE NUMBER</td>
+      <td><input type="text" name="mobile_number"/>(only 10 digits)</td>
+
+     </tr>
+     <tr>
+      <td>GENDER</td>
+      <td>
+        <input type="radio" value="female" name="gender"/>male
+        <input type="radio" value="male " name="gender"/>female
+        <input type ="radio" valude="transgender" name="gender"/>transgender
+
+      </td>
+     
+     </tr>
+     <tr>
+     <td>ADDRESS</td>
+     <td>
+     <textarea name="address" row="40" cols="50" placeholder="write your address"/></textarea>
+     </td>
+     </tr> 
+     <tr>
+     <td>CITY</td>
+     <td>
+      
+      <select name ="city">
+        
+        <option value="-1">city</option>
+        <option value="haldwani">haldwani</option>
+        <option value="khatima">khatima</option>
+        <option value="rudarpur">rudarpur</option>
+        <option value="kiccha">kiccha</option>
+        
+      </select>
+     </td>
+     </tr>
+     <tr>
+      <td>HOBBIES</td>
+      <td>
+        <input type="checkbox" value="drawing" name="hobbies">drawing
+        <input type="checkbox" value="singing" name="hobbies">singing
+        <input type ="checkbox" value="running" name="hobbies">running
+        <input type ="checkbox" value="cricker" name="hobbies">cricket
+      </td>
+     </tr>
+     <tr>
+      <td align="center">QUALIFICATION</td>
+      <td>
+        <table>
+          <tr>
+            <td align="center"><b>sI NO</b></td>
+            <td align="center"> <b>examination</b></td>
+            <td align ="center"> <b>board</b></td>
+            <td align="center"><b>percentage</b></td>
+            <td align="center"><b>year of passing</b></td>
+          </tr>
+           <tr>
+            <td align="center"><b>1</b></td>
+            <td align="center"><b>class x </b></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+           </tr>
+           <tr>
+            <td aling="center"><b>2</b></td>
+            <td align="center"><b>class xi </b></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+           </tr>
+           <tr>
+            <td aling="center"><b>3</b></td>
+            <td align="center"><b>class xii</b></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+           </tr>
+           <tr>
+            <td aling="center"><b>4</b></td>
+            <td align="center"><b>student pass out</b></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+            <td align="center"><input type="text" name="heleo"></td>
+           </tr>
+          
+        </table>
+        <tr>
+          <td> FEEDBACK</td>
+          <td>
+            <textarea name ="feedback" placeholder="add your feedback" rows="15" cols="70"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" colspan="2">
+            <input type="submit" value="sumit">
+            <input type="reset" value="reset">
+          </td>
+        </tr>
+      
+      </td>
+     </tr>
+   
+    </form>
+   </table>
+</body>
+</html>
